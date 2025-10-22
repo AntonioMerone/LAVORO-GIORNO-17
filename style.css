@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #e7d8b9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 500;
+  color: #5a2c12;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0 30px;
+  font-weight: bold;
+}
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #e7d8b9;
+  background: #fff9ec;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.cardbody {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.cardh3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  align-self: center;
+  background-color: #f5d98a;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointers;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  color: #5a2c12;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0 30px;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  color: #5a2c12;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0 30px;
+  font-weight: bold;
+}
+
+.delicious {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5d98a;
+  text-align: center;
+}
